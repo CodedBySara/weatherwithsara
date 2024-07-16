@@ -27,6 +27,16 @@ line-height: 48px;
   justify-content: space-between;
 }
 
+.weather-app-details {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.weather-app-details strong {
+  color: #f65282 ;
+}
 header {
   border-bottom: 1px solid #6d638c;
   padding: 0 0 30px 0;
