@@ -16,6 +16,17 @@ a {
   color: #2b2931;
 }
 
+.weather-app-city {
+margin 0;
+font-size: 38px;
+line-height: 48px;
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
 header {
   border-bottom: 1px solid #6d638c;
   padding: 0 0 30px 0;
@@ -37,6 +48,10 @@ header {
   color: white;
   font-size: 16px;
   margin-left: 5px;
+}
+
+main {
+  padding: 30px 0;
 }
 
 footer {
