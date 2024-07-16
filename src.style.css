@@ -6,17 +6,25 @@ body {
 .weather-app {
   background-color: #a2a8d3;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 45px auto;
   padding: 30px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.88);
   border-radius: 16px;
 }
 
+a {
+  color: #2b2931;
+}
+
+header {
+  border-bottom: 1px solid #6d638c;
+  padding: 0 0 30px 0;
+}
 .search-form-input {
   background-color: #e7eaf6;
   border: none;
   border-radius: 6px;
-  max-width: 80%;
+  width: 80%;
   padding: 15px 20px;
   font-size: 16px;
 }
@@ -27,4 +35,13 @@ body {
   border: none;
   border-radius: 6px;
   color: white;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+footer {
+  border-top: 1px solid #6d638c;
+  padding: 30px 0 0 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
 }
